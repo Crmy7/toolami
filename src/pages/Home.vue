@@ -5,6 +5,7 @@
             <li v-for="(info, index) in infos" :key="info.title">
                 <b-btn @click="selectTool(index)" variant="info">
                     {{ info.title }}
+                    <img :src="info.image" :alt="info.title " />
                 </b-btn>
 
                 <b-popover class="popover-target" v-if="selectedTool === index" :target="'popover-' + index" :title="info.title">
@@ -22,9 +23,9 @@ export default {
     data() {
         return {
             infos: [
-                { title: "Sélection", text: "Sélectionnez un objet avec l'outil de sélection." },
-                { title: "Découpe", text: "Utilisez l'outil de découpe pour découper des parties d'une image." },
-                { title: "Pinceau", text: "Appliquez des couleurs avec l'outil pinceau." }
+                { title: "Sélection",image:"/img/noun-magnetic-lasso-tool-177513.svg", text: "Sélectionnez un objet avec l'outil de sélection." },
+                { title: "Découpe",image:"/img/noun-magnetic-lasso-tool-177513.svg", text: "Utilisez l'outil de découpe pour découper des parties d'une image." },
+                { title: "Pinceau",image:"/img/noun-magnetic-lasso-tool-177513.svg", text: "Appliquez des couleurs avec l'outil pinceau." }
             ],
             selectedTool: null
         };
