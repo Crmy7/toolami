@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.17 128.79">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #777;
+      }
+
+      .cls-3 {
+        fill: #5e5e5e;
+      }
+
+      .cls-4 {
+        fill: #525252;
+      }
+
+      .cls-5 {
+        fill: #2d2d2d;
+      }
+
+      .cls-6 {
+        fill: #464646;
+      }
+
+      .cls-7 {
+        fill: #393939;
+      }
+
+      .cls-8 {
+        fill: #838383;
+      }
+
+      .cls-9 {
+        fill: #a8a8a8;
+      }
+
+      .cls-10 {
+        fill: #cdcdcd;
+      }
+
+      .cls-11 {
+        fill: #b4b4b4;
+      }
+
+      .cls-12 {
+        fill: #8f8f8f;
+      }
+
+      .cls-13 {
+        fill: #c1c1c1;
+      }
+
+      .cls-14 {
+        fill: #9c9c9c;
+      }
+
+      .cls-15 {
+        fill: #6b6b6b;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-1" width="156.17" height="128.79"/>
+    <rect class="cls-5" x="6.08" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-7" x="16.35" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-6" x="26.62" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-4" x="36.89" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-3" x="47.16" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-15" x="57.43" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-2" x="67.7" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-8" x="77.96" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-12" x="88.23" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-14" x="98.5" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-9" x="108.77" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-11" x="119.04" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-13" x="129.31" y="7.13" width="10.24" height="114.53"/>
+    <rect class="cls-10" x="139.58" y="7.13" width="10.24" height="114.53"/>
+  </g>
+</svg>
