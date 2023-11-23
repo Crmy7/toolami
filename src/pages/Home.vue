@@ -45,206 +45,260 @@ export default {
         return {
             showHelp: {},
             infos: [
-                {
-                title: "Magnetic Lasso", 
-                image: "/img/noun-magnetic-lasso-tool-177513.svg", 
-                text: "Sélectionnez un objet avec l'outil de sélection." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                {
-                title: "Magic Wand", 
-                image: "/img/magic-wand.svg", 
-                text: "Utilisez l'outil de découpe pour découper des parties d'une image." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Gradient", 
-                image: "/img/Gradient.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Blur", 
-                image: "/img/noun-blur-tool-177470.svg", 
-                text: "Sélectionnez un objet avec l'outil de sélection." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Color Sample", 
-                image: "/img/noun-color-sample-tool-177482.svg", 
-                text: "Utilisez l'outil de découpe pour découper des parties d'une image." },
-                { 
-                title: "Convert Point", 
-                image: "/img/noun-convert-point-tool-177484.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Direct Selection", 
-                image: "/img/noun-direct-selection-tool-177487.svg", 
-                text: "Sélectionnez un objet avec l'outil de sélection." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Eliptical-marquee", 
-                image: "/img/noun-eliptical-marquee-tool-764886.svg", 
-                text: "Utilisez l'outil de découpe pour découper des parties d'une image." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Eraser Tool", 
-                image: "/img/noun-eraser-tool-177493.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Eyedropper Tool", 
-                image: "/img/noun-eyedropper-tool-177491.svg", 
-                text: "Sélectionnez un objet avec l'outil de sélection." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Horizontal Type", 
-                image: "/img/noun-horizontal-type-tool-177501.svg", 
-                text: "Utilisez l'outil de découpe pour découper des parties d'une image." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Paint Bucket Tool", 
-                image: "/img/noun-paint-bucket-tool-177519.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Pen", 
-                image: "/img/noun-pen-tool-177523.svg", 
-                text: "Sélectionnez un objet avec l'outil de sélection." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Polygon", 
-                image: "/img/noun-polygon-tool-177527.svg", 
-                text: "Utilisez l'outil de découpe pour découper des parties d'une image.",
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },    
-                { 
-                title: "QuickSelection", 
-                image: "/img/noun-quick-selection-tool-177526.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Rectangular Marquee", 
-                image: "/img/noun-rectangular-marquee-tool-177529.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Rotate View", 
-                image: "/img/noun-rotate-view-tool-177525.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Ruler", 
-                image: "/img/noun-ruler-tool-177533.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Shape Builder", 
-                image: "/img/noun-shape-builder-tool-1457300.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Slice", 
-                image: "/img/noun-slice-tool-177537 (1).svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Smooth", 
-                image: "/img/noun-smooth-tool-1457250.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Smudge", 
-                image: "/img/noun-smudge-tool-177542.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Sponge", 
-                image: "/img/noun-sponge-tool-177538.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Spot Healing brush", 
-                image: "/img/noun-spot-healing-brush-tool-177545.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Vertical Type", 
-                image: "/img/noun-vertical-type-tool-177550.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Zoom", 
-                image: "/img/noun-zoom-tool-177547.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Rotate", 
-                image: "/img/Rotate.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Shape Gradient", 
-                image: "/img/Shape Gradient.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
-                { 
-                title: "Degrade De Forme", 
-                image: "/img/degrade_de_forme.svg", 
-                text: "Appliquez des couleurs avec l'outil pinceau." ,
-                tags: ["Sélection", "Outil", "Lasso"],
-                util: ["Texte utilitaire 1", "Texte utilitaire 2", "Texte utilitaire 3"]
-                },
+                
+            {
+                title: "Basic Selection",
+                image: "/img/noun-path-selection-tool-177517.svg",
+                text: "Use this tool for basic selections in your projects.",
+                tags: ["Basic Selection", "Beginner", "Essential"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Blur",
+                image: "/img/noun-blur-tool-177470.svg",
+                text: "This tool allows you to blur certain parts of your image for artistic effects or to obscure details.",
+                tags: ["Blur", "Artistic Effect", "Obscuring"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Clone Stamp",
+                image: "/img/noun-clone-stamp-tool-177479.svg",
+                text: "Duplicate elements in your images using the Clone Stamp tool for creative editing.",
+                tags: ["Duplication", "Creative", "Image Editing"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Convert Point",
+                image: "/img/noun-convert-point-tool-177484.svg",
+                text: "Convert and adjust anchor points on your paths for precise control of your shapes.",
+                tags: ["Anchor Points", "Precision", "Shapes"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Crop",
+                image: "/img/noun-crop-tool-177485.svg",
+                text: "Crop your images to improve composition or eliminate unwanted elements.",
+                tags: ["Cropping", "Composition", "Editing"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Crop Perspective",
+                image: "/img/crop-perspective.svg",
+                text: "Adjust the perspective of your images while cropping for an enhanced depth effect.",
+                tags: ["Cropping", "Perspective", "Adjustment"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Cut",
+                image: "/img/cut.svg",
+                text: "Use this tool to cut and split parts of your images or projects.",
+                tags: ["Cutting", "Splitting", "Separating"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Direct Selection",
+                image: "/img/noun-direct-selection-tool-177487.svg",
+                text: "Directly select and manipulate objects and individual points for precise control.",
+                tags: ["Direct Selection", "Precise Control", "Manipulation"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Eliptical-marquee",
+                image: "/img/noun-eliptical-marquee-tool-764886.svg",
+                text: "Create precise elliptical selections, perfect for selecting round or curved objects.",
+                tags: ["Elliptical Selection", "Round Shapes", "Precision"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Ellipse",
+                image: "/img/noun-ellipse-tool-177490.svg",
+                text: "Easily draw ellipses and perfect circles to add geometric shapes to your projects.",
+                tags: ["Ellipse", "Circles", "Geometric Shapes"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Eraser Tool",
+                image: "/img/noun-eraser-tool-177493.svg",
+                text: "Easily erase parts of your project with this tool, allowing for modifications or clean-up of specific areas.",
+                tags: ["Eraser", "Clean-up", "Removal"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Eyedropper Tool",
+                image: "/img/noun-eyedropper-tool-177491.svg",
+                text: "Sample colors directly from your project to ensure color consistency.",
+                tags: ["Eyedropper", "Color Sampling", "Consistency"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Gradient",
+                image: "/img/Gradient.svg",
+                text: "Apply color gradients to enrich your creations with smooth color transitions.",
+                tags: ["Gradient", "Color Transition", "Enhancement"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Horizontal Type",
+                image: "/img/noun-horizontal-type-tool-177501.svg",
+                text: "Add and edit horizontal text for titles, subtitles, and body text.",
+                tags: ["Text", "Horizontal", "Typography"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Magic Wand",
+                image: "/img/magic-wand.svg",
+                text: "Automatically select similar color areas for quick and efficient editing.",
+                tags: ["Magic Wand", "Auto Select", "Efficiency"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Magnetic Lasso",
+                image: "/img/noun-magnetic-lasso-tool-177513.svg",
+                text: "Trace precise selections around objects with ease, as the tool adheres to visible edges.",
+                tags: ["Magnetic Lasso", "Precision", "Edge Detection"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Paint Bucket Tool",
+                image: "/img/noun-paint-bucket-tool-177519.svg",
+                text: "Quickly fill areas with colors or patterns for rapid style changes.",
+                tags: ["Paint Bucket", "Filling", "Quick Editing"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Patch",
+                image: "/img/noun-patch-tool-177518.svg",
+                text: "Correct and enhance specific areas by replacing them with textures or colors from other parts.",
+                tags: ["Patch", "Correction", "Enhancement"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Pen",
+                image: "/img/noun-pen-tool-177523.svg",
+                text: "Create custom paths and precise shapes for detailed graphic designs.",
+                tags: ["Pen", "Paths", "Graphic Design"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Pencil",
+                image: "/img/noun-pencil-tool-209327.svg",
+                text: "Draw freehand to add artistic elements or annotations to your projects.",
+                tags: ["Pencil", "Drawing", "Freehand"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Polygon",
+                image: "/img/noun-polygon-tool-177527.svg",
+                text: "Design polygons and multi-sided shapes for geometric graphical elements.",
+                tags: ["Polygon", "Geometric Shapes", "Design"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },    
+            {
+                title: "QuickSelection",
+                image: "/img/noun-quick-selection-tool-177526.svg",
+                text: "Quickly select entire areas with this tool for efficient and rapid editing.",
+                tags: ["Quick Selection", "Efficiency", "Editing"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Rectangular",
+                image: "/img/noun-rectangle-tool-177544.svg",
+                text: "Create rectangles and squares with precision to structure your designs and compositions.",
+                tags: ["Rectangle", "Square", "Geometry"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Rectangular Marquee",
+                image: "/img/noun-rectangular-marquee-tool-177529.svg",
+                text: "Select rectangular areas to isolate, move, or edit specific parts.",
+                tags: ["Rectangular Selection", "Isolation", "Editing"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Rotate",
+                image: "/img/Rotate.svg",
+                text: "Rotate your images or elements to adjust orientation or create dynamic effects.",
+                tags: ["Rotate", "Orientation", "Dynamic"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Move",
+                image: "/img/noun-rotate-view-tool-177525.svg",
+                text: "Precisely move and position elements in your projects for perfect alignment and placement.",
+                tags: ["Move", "Positioning", "Alignment"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Ruler",
+                image: "/img/noun-ruler-tool-177533.svg",
+                text: "Measure and align objects with precision using the ruler tool for balanced designs.",
+                tags: ["Ruler", "Measurement", "Alignment"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Shape Builder",
+                image: "/img/noun-shape-builder-tool-1457300.svg",
+                text: "Combine, edit, and create complex shapes and designs using the shape builder tool.",
+                tags: ["Shape Builder", "Creativity", "Complex Shapes"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Shape Gradient",
+                image: "/img/Shape Gradient.svg",
+                text: "Apply gradients to your shapes for visually appealing color transitions and effects.",
+                tags: ["Shape", "Gradient", "Visual Effect"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Slice",
+                image: "/img/noun-slice-tool-177537 (1).svg",
+                text: "Slice your designs into smaller segments for easier editing or web layout purposes.",
+                tags: ["Slice", "Segmentation", "Web Layouts"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Smooth",
+                image: "/img/noun-smooth-tool-1457250.svg",
+                text: "Smooth out rough edges and refine your designs with the smooth tool for a polished look.",
+                tags: ["Smooth", "Refinement", "Polished Design"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Smudge",
+                image: "/img/noun-smudge-tool-177542.svg",
+                text: "Use the smudge tool to blend or smudge colors in your artwork for artistic effects.",
+                tags: ["Smudge", "Blend", "Artistic"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Sponge",
+                image: "/img/noun-sponge-tool-177538.svg",
+                text: "Manipulate the saturation levels of your images with the sponge tool for vivid or muted colors.",
+                tags: ["Sponge", "Saturation", "Color Adjustment"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Spot Healing brush",
+                image: "/img/noun-spot-healing-brush-tool-177545.svg",
+                text: "Quickly fix blemishes and imperfections in your images with the spot healing brush.",
+                tags: ["Spot Healing", "Blemish Fix", "Imperfection Removal"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Vertical Type",
+                image: "/img/noun-vertical-type-tool-177550.svg",
+                text: "Add vertical text to your designs for creative typography and unique layout options.",
+                tags: ["Vertical Text", "Creative Typography", "Layout"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            },
+            {
+                title: "Zoom",
+                image: "/img/noun-zoom-tool-177547.svg",
+                text: "Zoom in and out of your projects for detailed work or to get an overall view of your design.",
+                tags: ["Zoom", "Detail Work", "Overview"],
+                util: ["Utility text 1", "Utility text 2", "Utility text 3"]
+            }
+                
                 
 
             ],
