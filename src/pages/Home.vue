@@ -38,21 +38,12 @@
 <script>
 export default {
     name: 'Home',
-    data() {
-        return {
-            // ...
-            showHelp: {}, // Suivi de l'état d'aide pour chaque carte
-        };
-    },
-    methods: {
-        toggleHelp(index) {
-            // Active/désactive l'aide pour la carte spécifiée
-            this.$set(this.showHelp, index, !this.showHelp[index]);
-        },
-    },
+    
+   
     
     data() {
         return {
+            showHelp: {},
             infos: [
                 {
                 title: "Magnetic Lasso", 
@@ -265,19 +256,20 @@ export default {
         selectTool(index) {
             // Met à jour l'outil sélectionné
             this.selectedTool = index;
-        }
+        },
+        toggleHelp(index) {
+            // Active/désactive l'aide pour la carte spécifiée
+            this.showHelp[index] = !this.showHelp[index];
+        },
     }
 };
 </script>
 
 <style>
-.popover-target {
-    position: absolute;
-    margin: auto;
-}
+
 
 .popover-target {
-    position: absolute;
+    position: fixed;
     margin: auto;
     top: 50%;
     left: 50%;
@@ -347,20 +339,18 @@ export default {
 }
 
 .help-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    
+    
     /* Autres styles pour le bouton d'aide */
 }
 
-.card {
-    position: relative; /* Pour positionner correctement le bouton d'aide */
-    /* Autres styles de la carte */
-}
+
 
 .card-utils {
     margin-top: 10px;
     text-align: center;
+    color:green;
+    font-weight: 700;
 }
 
 
