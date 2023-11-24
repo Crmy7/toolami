@@ -1,5 +1,11 @@
 <template>
     <div style="width: 100vw;">
+        <nav class="nav">
+            <RouterLink to="/" style="height: 100%; width: 100%;">
+                <img src="/src/assets/Logo_ToolAmI_v2.png" alt="" style="width: 100%; height: 100%; object-fit: contain;">
+            </RouterLink>
+        </nav>
+        <div style="height: 15vh; width: 100vw"></div>
         <ul style="width: 100%;">
             <!-- Boucle pour afficher les informations -->
             <li v-for="(info, index) in infos" :key="info.title" class="list-card-item">
@@ -45,10 +51,12 @@
   
   
 <script>
+
 export default {
     name: 'Home',
     data() {
         return {
+
             showHelp: {},
             infos: [
                 {
@@ -225,7 +233,7 @@ export default {
                 },
                 {
                     title: "Move",
-                    image: "/img/noun-rotate-view-tool-177525.svg",
+                    image: "/img/noun-move-tool-177525.svg",
                     text: "Precisely move and position elements in your projects for perfect alignment and placement.",
                     tags: ["Move", "Positioning", "Alignment"],
                     util: ["Moves and positions elements", "For perfect alignment", "Used in Photoshop and Illustrator"]
@@ -306,6 +314,24 @@ export default {
         };
     },
 
+    mounted() {
+        // Move the event listener inside the mounted hook
+        this.nav = document.querySelector(".nav");
+        let lastScrollY = window.scrollY;
+
+        window.addEventListener("scroll", () => {
+            if (this.nav) {
+                if (lastScrollY < window.scrollY) {
+                    this.nav.classList.add("nav--hidden");
+                } else {
+                    this.nav.classList.remove("nav--hidden");
+                }
+            }
+
+            lastScrollY = window.scrollY;
+        });
+    },
+
     methods: {
         selectTool(index) {
             // Met à jour l'outil sélectionné
@@ -339,6 +365,26 @@ $pink: #fb1aac;
 $orange: #fb3d00;
 $yellow: #f8cc08;
 $green: #92e041;
+
+.nav {
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.nav--hidden {
+    transform: translateY(calc(-1 * 15vh)) !important;
+    box-shadow: none;
+}
+
+
 
 #app {
     background: white;

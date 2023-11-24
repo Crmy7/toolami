@@ -1,83 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.17 128.79">
-  <defs>
-    <style>
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15 {
-        stroke-width: 0px;
-      }
-
-      .cls-2 {
-        fill: #777;
-      }
-
-      .cls-3 {
-        fill: #5e5e5e;
-      }
-
-      .cls-4 {
-        fill: #525252;
-      }
-
-      .cls-5 {
-        fill: #2d2d2d;
-      }
-
-      .cls-6 {
-        fill: #464646;
-      }
-
-      .cls-7 {
-        fill: #393939;
-      }
-
-      .cls-8 {
-        fill: #838383;
-      }
-
-      .cls-9 {
-        fill: #a8a8a8;
-      }
-
-      .cls-10 {
-        fill: #cdcdcd;
-      }
-
-      .cls-11 {
-        fill: #b4b4b4;
-      }
-
-      .cls-12 {
-        fill: #8f8f8f;
-      }
-
-      .cls-13 {
-        fill: #c1c1c1;
-      }
-
-      .cls-14 {
-        fill: #9c9c9c;
-      }
-
-      .cls-15 {
-        fill: #6b6b6b;
-      }
-    </style>
-  </defs>
-  <g id="Layer_1" data-name="Layer 1">
-    <rect class="cls-1" width="156.17" height="128.79"/>
-    <rect class="cls-5" x="6.08" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-7" x="16.35" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-6" x="26.62" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-4" x="36.89" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-3" x="47.16" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-15" x="57.43" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-2" x="67.7" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-8" x="77.96" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-12" x="88.23" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-14" x="98.5" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-9" x="108.77" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-11" x="119.04" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-13" x="129.31" y="7.13" width="10.24" height="114.53"/>
-    <rect class="cls-10" x="139.58" y="7.13" width="10.24" height="114.53"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_2_00000044895549704981178410000002499180353563130549_"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 125"
+	 style="enable-background:new 0 0 100 125;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2D2D2D;}
+	.st1{fill:#393939;}
+	.st2{fill:#464646;}
+	.st3{fill:#525252;}
+	.st4{fill:#5E5E5E;}
+	.st5{fill:#6B6B6B;}
+	.st6{fill:#777777;}
+	.st7{fill:#838383;}
+	.st8{fill:#8F8F8F;}
+	.st9{fill:#9C9C9C;}
+	.st10{fill:#A8A8A8;}
+	.st11{fill:#B4B4B4;}
+	.st12{fill:#C1C1C1;}
+	.st13{fill:#CDCDCD;}
+</style>
+<g id="Layer_1">
+	<rect x="22.5" y="39.8" width="55" height="45.4"/>
+	<rect x="24.6" y="42.3" class="st0" width="3.6" height="40.3"/>
+	<rect x="28.3" y="42.3" class="st1" width="3.6" height="40.3"/>
+	<rect x="31.9" y="42.3" class="st2" width="3.6" height="40.3"/>
+	<rect x="35.5" y="42.3" class="st3" width="3.6" height="40.3"/>
+	<rect x="39.1" y="42.3" class="st4" width="3.6" height="40.3"/>
+	<rect x="42.7" y="42.3" class="st5" width="3.6" height="40.3"/>
+	<rect x="46.3" y="42.3" class="st6" width="3.6" height="40.3"/>
+	<rect x="50" y="42.3" class="st7" width="3.6" height="40.3"/>
+	<rect x="53.6" y="42.3" class="st8" width="3.6" height="40.3"/>
+	<rect x="57.2" y="42.3" class="st9" width="3.6" height="40.3"/>
+	<rect x="60.8" y="42.3" class="st10" width="3.6" height="40.3"/>
+	<rect x="64.4" y="42.3" class="st11" width="3.6" height="40.3"/>
+	<rect x="68" y="42.3" class="st12" width="3.6" height="40.3"/>
+	<rect x="71.7" y="42.3" class="st13" width="3.6" height="40.3"/>
+</g>
 </svg>

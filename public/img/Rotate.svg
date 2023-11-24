@@ -1,20 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196.07 183.05">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #231f20;
-        stroke-width: 0px;
-      }
-    </style>
-  </defs>
-  <g id="Layer_1" data-name="Layer 1">
-    <polygon class="cls-1" points="151.37 156.92 158.08 166.07 169.71 156.04 161.4 148.03 151.37 156.92"/>
-    <polygon class="cls-1" points="127.51 169.02 130.64 179.52 144.94 173.98 139.97 163.99 127.51 169.02"/>
-    <path class="cls-1" d="m100.79,172.38l-.55,10.55c5.09.36,10.17-.18,15.27-.39l-1.25-10.68c-4.48.21-8.96.79-13.47.53Z"/>
-    <polygon class="cls-1" points="70.59 176 85.11 180.74 87.4 170.63 74.51 166.61 70.59 176"/>
-    <polygon class="cls-1" points="45.01 159.46 57.05 168.8 62.42 160.39 51.6 152.23 45.01 159.46"/>
-    <polygon class="cls-1" points="27.95 138.01 34.93 148.46 42.47 142.55 36.11 133.29 27.95 138.01"/>
-    <path class="cls-1" d="m25.79,39.37L0,31.77l16.24,69.54,54-48.84-19.77-5.83c48.47-62.73,161.86-6.68,124.87,81.37,0,0,4.19,2.05,7.3,3.58l-7.37-3.61-5.49,9.6,9.71,6.6,6.47-10.97-.07-.03C236.43,21.05,85.65-47.6,25.79,39.37Z"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_2_00000084505110009364601640000004019669908720356229_"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 125"
+	 style="enable-background:new 0 0 100 125;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#231F20;}
+</style>
+<g id="Layer_1">
+	<polygon class="st0" points="66.3,82.5 68.4,85.3 71.9,82.2 69.4,79.8 	"/>
+	<polygon class="st0" points="59,86.2 60,89.4 64.4,87.7 62.8,84.7 	"/>
+	<path class="st0" d="M50.8,87.2l-0.2,3.2c1.6,0.1,3.1-0.1,4.7-0.1L55,87.1C53.6,87.1,52.2,87.3,50.8,87.2L50.8,87.2z"/>
+	<polygon class="st0" points="41.6,88.3 46,89.8 46.7,86.7 42.8,85.5 	"/>
+	<polygon class="st0" points="33.8,83.3 37.5,86.1 39.1,83.6 35.8,81.1 	"/>
+	<polygon class="st0" points="28.6,76.7 30.7,79.9 33,78.1 31,75.3 	"/>
+	<path class="st0" d="M27.9,46.5L20,44.2l5,21.3l16.5-14.9l-6-1.8c14.8-19.2,49.5-2,38.2,24.9c0,0,1.3,0.6,2.2,1.1l-2.3-1.1L72,76.6
+		l3,2l2-3.4l0,0C92.3,40.9,46.2,19.9,27.9,46.5z"/>
+</g>
 </svg>
