@@ -7,7 +7,6 @@
         </nav>
         <div style="height: 15vh; width: 100vw"></div>
         <ul style="width: 100%;">
-            <!-- Boucle pour afficher les informations -->
             <li v-for="(info, index) in infos" :key="info.title" class="list-card-item">
                 <!-- Bouton pour chaque outil -->
                 <b-button @click="selectTool(index)" variant="info" class="list-card">
