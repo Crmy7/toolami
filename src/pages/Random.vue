@@ -374,10 +374,6 @@ export default {
     gap: 35px;
 }
 
-.random-button {
-    /* Styles pour le bouton 'Random' */
-}
-
 .card {
     /* Styles pour la carte */
     border: 1px solid #ddd;
@@ -428,7 +424,4 @@ export default {
     width: 100%;
 }
 
-.help-button {
-    /* Styles pour le bouton d'aide */
-}
 </style>

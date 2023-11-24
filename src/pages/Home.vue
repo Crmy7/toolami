@@ -430,8 +430,6 @@ $green: #92e041;
             max-width: 230px;
         }
 
-        .btn-close {}
-
         .card-button {
             display: block;
             padding: 10px 0;
